@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="linkan roy" />
+    <meta name="keywords" content="portfolio, html, linkan roy" />
+    <meta name="description" content="Linkan Roy is a software developer" />
+
+    <title>portfolio</title>
+
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- section navbar -->
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">My Skills</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- section: Intro -->
+      <section id="intro" class="intro card">
+        <h1 class="intro__title">Linkan Roy</h1>
+        <p class="intro__description"><em>Web Developer</em></p>
+      </section>
+
+      <!-- section: about me -->
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <img
+          src="./images/Linkan1.png"
+          alt="profile image"
+          title="linkan"
+          height="150"
+        />
+        <p><strong>Experience:</strong> Junior Web Developer</p>
+        <p>
+          <strong>Education:</strong> BSc in Computer Science and Engineering
+        </p>
+      </section>
+
+
+      <!-- Section: Skills -->
+      <section id="skills" class="card">
+        <h2>Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Profiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td rowspan="2">Expert</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+            </tr>
+            <tr>
+              <td>javaScript</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section: Project -->
+      <section id="projects" class="card">
+        <h2>Projects</h2>
+        <ol>
+          <li>
+            <a href="https://linkan440.github.io/personal-site/" target="_blank"
+              >Portfolio Website</a
+            >
+          </li>
+          <li>Blog Website</li>
+          <li>E-Commerce Website</li>
+        </ol>
+      </section>
+
+      <!-- Section: Contact -->
+      <section id="contact" class="card">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/movqjnow" method="POST">
+          <!-- <fieldset>
+            <legend>Personal Information</legend>
+          </fieldset> -->
+
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="emial">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+              <option value="inquiry">Inquiry</option>
+              <option value="feedback">Feeback</option>
+              <option value="job">Job Opportunity</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="20"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Section: Footer -->
+    <footer>
+     <div class="footer__left">
+      <p class="copyright">copyright reserved by &copy;Linkan2024</p>
+      <p>Developed with &hearts;</p>
+     
+     </div>
+
+      <div class="social-media">
+        <h3>Follow Me</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/linkan.roy.94" target="_blank"
+              ><i class="fa-brands fa-facebook"></i></a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/linkan.roy.94" target="_blank"
+              ><i class="fa-brands fa-youtube"></i></a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/linkan.roy.94" target="_blank"
+              ><i class="fa-brands fa-instagram"></i></a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/linkan.roy.94" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107700.68961172193!2d89.44986298832565!3d22.845507953515572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e1!3m2!1sen!2sbd!4v1730093641031!5m2!1sen!2sbd"
+          title="khulna"
+          width="300"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
